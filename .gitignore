@@ -1,0 +1,64 @@
+# ─── STM32CubeIDE / Eclipse ───────────────────────────────────────────────────
+.project
+.cproject
+.settings/
+Debug/
+Release/
+*.launch
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.d
+*.o
+*.a
+*.su
+
+# ─── STM32CubeMX ──────────────────────────────────────────────────────────────
+*.ioc.bak
+
+# ─── Arm / GCC toolchain ──────────────────────────────────────────────────────
+*.axf
+*.uvoptx
+*.uvprojx
+*.uvguix
+
+# ─── OpenOCD / JLink ──────────────────────────────────────────────────────────
+*.jlink
+openocd.log
+
+# ─── Python (viewer) ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.Python
+
+# ─── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ─── Logs & captured data ─────────────────────────────────────────────────────
+viewer/log/*.csv
+viewer/log/*.bin
+*.log
+
+# ─── Claude Code ──────────────────────────────────────────────────────────────
+.claude/
+
+# ─── OS cruft ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Editors ──────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
